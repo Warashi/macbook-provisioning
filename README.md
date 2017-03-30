@@ -9,10 +9,18 @@ cd $HOME && git clone https://github.com/Homebrew/brew.git .homebrew
 ./.homebrew/bin/pyenv shell ansible
 pip install ansible
 ```
+
 ```
 ansible-playbook -i hosts -vv localhost.yml
 ```
-このほかに、App StoreからTwitterを入れる。
+
+App Store から入れるもの
+- Twitter
+
+そのほか自前で入れるもの
+- (Shift)[https://tryshift.com]
+- (Kite)[https://kite.com]
+
 後、fishermanでいくつか入れる
 ```
 fisher install paths pyenv done omf/osx omf/tab warashi/fish-fzy simnalamburt/shellder
