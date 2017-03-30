@@ -1,7 +1,6 @@
 - hosts: localhost
   connection: local
   gather_facts: no           
-  sudo: no
   vars:
     homebrew_taps:
       - fisherman/tap
@@ -13,14 +12,19 @@
       - { name: fzy }
       - { name: go }
       - { name: gibo }
+      - { name: pyenv-virtualenv }
     homebrew_cask_packages:
+      - { name: bartender }
       - { name: vivaldi }
       - { name: iterm2 }
       - { name: slack }
-      - { name: font-hasklig-nerd-font }
       - { name: visual-studio-code }
       - { name: dropbox }
+      - { name: 1password }
+      - { name: font-hasklig-nerd-font }
       - { name: font-source-han-code-jp }
+    go_get_list:
+      - github.com/motemen/ghq
 
   tasks:
     - name: homebrew の tap リポジトリを追加
@@ -47,6 +51,6 @@
       homebrew_cask: name={{ item.name }} state={{ item.state|default('installed') }}
       with_items: "{{ homebrew_cask_packages }}"
 
-  handlers:
-    - name: run fc-cache
-      shell: fc-cache -vf
+    - name: go go_get_list
+      command: go get -u {{ item }}
+      with_items: "{{ go_get_list }}"
