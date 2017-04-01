@@ -19,6 +19,7 @@
       - { name: flash-ppapi }
       - { name: iterm2 }
       - { name: slack }
+      - { name: discord }
       - { name: visual-studio-code }
       - { name: dropbox }
       - { name: 1password }
