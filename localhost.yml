@@ -14,9 +14,11 @@
       - { name: gibo }
       - { name: pyenv-virtualenv }
     homebrew_cask_packages:
+      - { name: alfred }
       - { name: bartender }
       - { name: vivaldi }
       - { name: flash-ppapi }
+      - { name: hyperswitch }
       - { name: iterm2 }
       - { name: slack }
       - { name: discord }
