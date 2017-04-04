@@ -19,6 +19,7 @@
       - { name: vivaldi }
       - { name: flash-ppapi }
       - { name: hyperswitch }
+      - { name: tomighty }
       - { name: iterm2 }
       - { name: slack }
       - { name: discord }
