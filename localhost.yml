@@ -13,6 +13,7 @@
       - { name: go }
       - { name: gibo }
       - { name: pyenv-virtualenv }
+      - { name: ripgrep }
     homebrew_cask_packages:
       - { name: alfred }
       - { name: bartender }
