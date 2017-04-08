@@ -15,6 +15,7 @@
       - { name: pyenv-virtualenv }
       - { name: ripgrep }
       - { name: aria2, install_options: with-libssh2 }
+      - { name: terminal-notifier }
     homebrew_cask_packages:
       - { name: alfred }
       - { name: bartender }
