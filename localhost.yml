@@ -28,8 +28,7 @@
       - { name: visual-studio-code }
       - { name: dropbox }
       - { name: 1password }
-      - { name: font-hasklig-nerd-font }
-      - { name: font-source-han-code-jp }
+      - { name: font-fira-code }
     go_get_list:
       - github.com/motemen/ghq
 
