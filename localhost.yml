@@ -19,7 +19,7 @@
     homebrew_cask_packages:
       - { name: alfred }
       - { name: bartender }
-      - { name: vivaldi }
+      - { name: google-chrome }
       - { name: hyperswitch }
       - { name: tomighty }
       - { name: iterm2 }
