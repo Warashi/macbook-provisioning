@@ -20,7 +20,6 @@
       - { name: alfred }
       - { name: bartender }
       - { name: vivaldi }
-      - { name: flash-ppapi }
       - { name: hyperswitch }
       - { name: tomighty }
       - { name: iterm2 }
