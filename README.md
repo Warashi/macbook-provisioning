@@ -18,8 +18,9 @@ App Store から入れるもの
 - 
 
 そのほか自前で入れるもの
+- iTerm の Beta
 
 後、fishermanでいくつか入れる
 ```
-fisher install paths done omf/osx omf/tab warashi/fish-fzy 
+fisher install paths done omf/osx omf/tab warashi/fish-fzy pyenv
 ```

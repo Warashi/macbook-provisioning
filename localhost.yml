@@ -27,7 +27,6 @@
       - { name: google-chrome }
       - { name: hyperswitch }
       - { name: tomighty }
-      - { name: iterm2 }
       - { name: kite }
       - { name: slack }
       - { name: gitter }
