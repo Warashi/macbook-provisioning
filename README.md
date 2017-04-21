@@ -15,13 +15,11 @@ ansible-playbook -i hosts -vv localhost.yml
 ```
 
 App Store から入れるもの
-- Twitter
+- 
 
 そのほか自前で入れるもの
-- (Shift)[https://tryshift.com]
-- (Kite)[https://kite.com]
 
 後、fishermanでいくつか入れる
 ```
-fisher install paths pyenv done omf/osx omf/tab warashi/fish-fzy simnalamburt/shellder
+fisher install paths done omf/osx omf/tab warashi/fish-fzy 
 ```
