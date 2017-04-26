@@ -22,5 +22,5 @@ App Store から入れるもの
 
 後、fishermanでいくつか入れる
 ```
-fisher install paths done omf/osx omf/tab warashi/fish-fzy pyenv
+fisher install paths done omf/osx omf/tab 0rax/fish-bd pyenv
 ```
