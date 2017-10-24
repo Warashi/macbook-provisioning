@@ -4,8 +4,8 @@ homebrew を入れて ansible の環境を整える
 ```
 cd $HOME && git clone https://github.com/Homebrew/brew.git .homebrew
 ./.homebrew/bin/brew install pyenv-virtualenv
-./.homebrew/bin/pyenv install 3.6.1
-./.homebrew/bin/pyenv virtualenv 3.6.1 ansible
+./.homebrew/bin/pyenv install 3.6.2
+./.homebrew/bin/pyenv virtualenv 3.6.2 ansible
 ./.homebrew/bin/pyenv shell ansible
 pip install ansible
 ```
@@ -18,7 +18,7 @@ App Store から入れるもの
 - 
 
 そのほか自前で入れるもの
-- iTerm の Beta
+- 
 
 後、fishermanでいくつか入れる
 ```

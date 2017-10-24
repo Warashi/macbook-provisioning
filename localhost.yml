@@ -4,42 +4,29 @@
   vars:
     homebrew_taps:
       - fisherman/tap
-      - neovim/neovim
       - caskroom/cask
       - caskroom/fonts
     homebrew_packages:
       - { name: fish }
       - { name: fisherman }
-      - { name: fzy }
+      - { name: ghq }
       - { name: go }
       - { name: gibo }
       - { name: pyenv-virtualenv }
-      - { name: ripgrep }
-      - { name: aria2, install_options: with-libssh2 }
       - { name: terminal-notifier }
       - { name: tmux }
       - { name: reattach-to-user-namespace }
-      - { name: neovim }
       - { name: tig }
     homebrew_cask_packages:
       - { name: alfred }
-      - { name: boostnote }
-      - { name: bartender }
-      - { name: google-chrome }
       - { name: hyperswitch }
-      - { name: tomighty }
-      - { name: kite }
       - { name: slack }
-      - { name: gitter }
-      - { name: discord }
       - { name: visual-studio-code }
+      - { name: firefox }
       - { name: dropbox }
-      - { name: 1password }
       - { name: caffeine }
       - { name: font-fira-code }
-      - { name: font-source-han-code-jp }
-    go_get_list:
-      - github.com/motemen/ghq
+      - { name: iterm2 }
 
   tasks:
     - name: homebrew の tap リポジトリを追加
@@ -67,7 +54,3 @@
         HOMEBREW_CASK_OPTS: --appdir=~/Applications
       homebrew_cask: name={{ item.name }} state={{ item.state|default('installed') }}
       with_items: "{{ homebrew_cask_packages }}"
-
-    - name: go go_get_list
-      command: go get -u {{ item }}
-      with_items: "{{ go_get_list }}"
