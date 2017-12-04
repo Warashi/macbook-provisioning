@@ -15,6 +15,11 @@
       - { name: tmux }
       - { name: reattach-to-user-namespace }
       - { name: tig }
+      - { name: pipenv }
+      - { name: python }
+      - { name: python3 }
+      - { name: htop }
+      - { name: vim, install_options: ["with-gettext", "with-luajit", "with-python3", "with-tcl"]}
     homebrew_cask_packages:
       - { name: hyperswitch }
       - { name: slack }
