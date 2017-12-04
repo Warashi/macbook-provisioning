@@ -9,23 +9,20 @@
     homebrew_packages:
       - { name: fish }
       - { name: fisherman }
-      - { name: ghq }
       - { name: go }
       - { name: gibo }
-      - { name: pyenv-virtualenv }
       - { name: terminal-notifier }
       - { name: tmux }
       - { name: reattach-to-user-namespace }
       - { name: tig }
     homebrew_cask_packages:
-      - { name: alfred }
       - { name: hyperswitch }
       - { name: slack }
       - { name: visual-studio-code }
       - { name: firefox }
       - { name: dropbox }
       - { name: caffeine }
-      - { name: font-fira-code }
+      - { name: font-cica }
       - { name: iterm2 }
 
   tasks:

@@ -4,8 +4,8 @@ homebrew を入れて ansible の環境を整える
 ```
 cd $HOME && git clone https://github.com/Homebrew/brew.git .homebrew
 ./.homebrew/bin/brew install pyenv-virtualenv
-./.homebrew/bin/pyenv install 3.6.2
-./.homebrew/bin/pyenv virtualenv 3.6.2 ansible
+./.homebrew/bin/pyenv install 3.6.3
+./.homebrew/bin/pyenv virtualenv 3.6.3 ansible
 ./.homebrew/bin/pyenv shell ansible
 pip install ansible
 ```
@@ -15,10 +15,13 @@ ansible-playbook -i hosts -vv localhost.yml
 ```
 
 App Store から入れるもの
-- 
+- Boxy
 
 そのほか自前で入れるもの
-- 
+- Songmu/ghg
+- motemen/ghq
+- google/dep
+- vim-volt/volt
 
 後、fishermanでいくつか入れる
 ```
