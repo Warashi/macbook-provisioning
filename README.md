@@ -23,3 +23,5 @@ App Store から入れるもの
 - motemen/ghq
 - vim-volt/volt
 - <https://github.com/mitsuse/swim>
+- monochromegane/the_silver_searcher
+- direnv/direnv
