@@ -22,3 +22,4 @@ App Store から入れるもの
 - Songmu/ghg
 - motemen/ghq
 - vim-volt/volt
+- <https://github.com/mitsuse/swim>
