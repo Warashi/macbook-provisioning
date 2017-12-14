@@ -3,13 +3,11 @@
   gather_facts: no           
   vars:
     homebrew_taps:
-      - fisherman/tap
       - caskroom/cask
       - caskroom/fonts
     homebrew_packages:
-      - { name: fish }
-      - { name: fisherman }
       - { name: go }
+      - { name: jvgrep }
       - { name: gibo }
       - { name: terminal-notifier }
       - { name: tmux }
@@ -23,12 +21,13 @@
     homebrew_cask_packages:
       - { name: hyperswitch }
       - { name: slack }
-      - { name: visual-studio-code }
-      - { name: firefox }
+      - { name: google-chrome }
+      - { name: bartender }
       - { name: dropbox }
       - { name: caffeine }
-      - { name: font-cica }
+      - { name: font-fira-code }
       - { name: iterm2 }
+      - { name: dashlane }
 
   tasks:
     - name: homebrew の tap リポジトリを追加

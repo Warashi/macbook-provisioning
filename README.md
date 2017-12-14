@@ -18,12 +18,7 @@ App Store から入れるもの
 - Boxy
 
 そのほか自前で入れるもの
+- ATOK
 - Songmu/ghg
 - motemen/ghq
-- google/dep
 - vim-volt/volt
-
-後、fishermanでいくつか入れる
-```
-fisher install paths done omf/osx omf/tab 0rax/fish-bd pyenv
-```
