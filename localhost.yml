@@ -28,6 +28,7 @@
       - { name: font-fira-code }
       - { name: iterm2 }
       - { name: dashlane }
+      - { name: clipy }
 
   tasks:
     - name: homebrew の tap リポジトリを追加

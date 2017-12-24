@@ -15,7 +15,10 @@ ansible-playbook -i hosts -vv localhost.yml
 ```
 
 App Store から入れるもの
-- Boxy
+- PopClip
+- Magnet
+- Things
+- ライトクリーナー
 
 そのほか自前で入れるもの
 - ATOK
