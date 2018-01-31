@@ -4,8 +4,8 @@ homebrew を入れて ansible の環境を整える
 ```
 cd $HOME && git clone https://github.com/Homebrew/brew.git .homebrew
 ./.homebrew/bin/brew install pyenv-virtualenv
-./.homebrew/bin/pyenv install 3.6.3
-./.homebrew/bin/pyenv virtualenv 3.6.3 ansible
+./.homebrew/bin/pyenv install 3.6.4
+./.homebrew/bin/pyenv virtualenv 3.6.4 ansible
 ./.homebrew/bin/pyenv shell ansible
 pip install ansible
 ```
@@ -17,8 +17,12 @@ ansible-playbook -i hosts -vv localhost.yml
 App Store から入れるもの
 - PopClip
 - Magnet
-- Things
-- ライトクリーナー
+- Todoist
+- Fantastical 2
+- Parcel
+- Reeder
+- PiPifier
+- Tweetbot
 
 そのほか自前で入れるもの
 - ATOK
@@ -27,4 +31,4 @@ App Store から入れるもの
 - vim-volt/volt
 - <https://github.com/mitsuse/swim>
 - monochromegane/the_silver_searcher
-- direnv/direnv
+- Karabiner-Elements

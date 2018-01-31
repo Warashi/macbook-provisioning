@@ -16,8 +16,11 @@
       - { name: pipenv }
       - { name: python }
       - { name: python3 }
-      - { name: htop }
-      - { name: vim, install_options: ["with-gettext", "with-luajit", "with-python3", "with-tcl"]}
+      - { name: pyenv }
+      - { name: pyenv-virtualenv }
+      - { name: direnv }
+      - { name: fzf }
+      - { name: hub }
     homebrew_cask_packages:
       - { name: hyperswitch }
       - { name: slack }
@@ -29,6 +32,9 @@
       - { name: iterm2 }
       - { name: dashlane }
       - { name: clipy }
+      - { name: authy }
+      - { name: bitbar }
+      - { name: sublime-text }
 
   tasks:
     - name: homebrew の tap リポジトリを追加
