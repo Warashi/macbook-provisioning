@@ -1,6 +1,6 @@
 - hosts: localhost
   connection: local
-  gather_facts: no           
+  gather_facts: no
   vars:
     homebrew_taps:
       - caskroom/cask
@@ -25,12 +25,13 @@
       - { name: dropbox }
       - { name: caffeine }
       - { name: font-fira-code }
+      - { name: font-source-han-code-jp }
       - { name: iterm2 }
       - { name: dashlane }
       - { name: clipy }
       - { name: authy }
       - { name: bitbar }
-      - { name: sublime-text }
+      - { name: visual-studio-code }
 
   tasks:
     - name: homebrew の tap リポジトリを追加
