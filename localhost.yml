@@ -32,6 +32,7 @@
       - { name: authy }
       - { name: bitbar }
       - { name: visual-studio-code }
+      - { name: appcleaner }
 
   tasks:
     - name: homebrew の tap リポジトリを追加
