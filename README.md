@@ -32,3 +32,4 @@ App Store から入れるもの
 - <https://github.com/mitsuse/swim>
 - monochromegane/the_silver_searcher
 - Karabiner-Elements
+- [exa](https://the.exa.website/)
