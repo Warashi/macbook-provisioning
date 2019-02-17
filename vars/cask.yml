@@ -1,0 +1,10 @@
+homebrew_cask_packages:
+  - { name: hyperswitch }
+  - { name: slack }
+  - { name: google-chrome }
+  - { name: bartender }
+  - { name: caffeine }
+  - { name: font-fira-code }
+  - { name: iterm2 }
+  - { name: dashlane }
+  - { name: visual-studio-code }

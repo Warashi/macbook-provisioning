@@ -1,0 +1,18 @@
+- hosts: localhost
+  connection: local
+  gather_facts: no
+  vars_files:
+    - "../vars/mas.yml"
+
+  tasks:
+    - name: install mas-cli
+      homebrew:
+        name: mas
+        state: latest
+
+    - name: mas install
+      script: '../scripts/mas.sh {{ item.id }}'
+      with_items: '{{ mac_apps }}'
+      register: result
+      changed_when: result.rc == 1
+      failed_when: result.rc not in [0, 1]

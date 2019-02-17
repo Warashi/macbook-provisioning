@@ -1,0 +1,21 @@
+- hosts: localhost
+  connection: local
+  gather_facts: no
+  vars_files:
+    - "../vars/mygtc.yml"
+
+  tasks:
+    - name: install golang
+      homebrew:
+        name: go
+
+    - name: build mygtc
+      shell: go build
+      args: 
+        chdir: ../mygtc
+
+    - name: install softwares
+      shell: ./mygtc install {{ item }}
+      args: 
+        chdir: ../mygtc
+      with_items: "{{ mygtc_items }}"

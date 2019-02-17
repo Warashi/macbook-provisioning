@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  connection: local
+  gather_facts: no
+- import_playbook: tasks/setup.yml
+- import_playbook: tasks/brew.yml
+- import_playbook: tasks/cask.yml
+- import_playbook: tasks/mas.yml
+- import_playbook: tasks/mygtc.yml

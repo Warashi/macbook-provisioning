@@ -1,0 +1,9 @@
+- hosts: localhost
+  connection: local
+  gather_facts: no
+  vars_files:
+    - "../vars/cask.yml"
+  tasks:
+    - name: cask パッケージをインストール
+      homebrew_cask: name={{ item.name }} state={{ item.state|default('installed') }}
+      with_items: "{{ homebrew_cask_packages }}"
