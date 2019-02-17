@@ -1,2 +1,10 @@
-mac_apps: {}
+mac_apps: 
+  - id: 445189367
+    name: "PopClip"
+  - id: 975937182
+    name: "Fantastical 2"
+  - id: 585829637
+    name: "Todoist"
+  - id: 1319778037
+    name: "iStat Menus"
 
