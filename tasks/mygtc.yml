@@ -10,12 +10,13 @@
         name: go
 
     - name: build mygtc
-      shell: go build
+      shell: go install
       args: 
         chdir: ../mygtc
 
     - name: install softwares
-      shell: ./mygtc install {{ item }}
-      args: 
-        chdir: ../mygtc
+      shell: $(go env GOPATH)/bin/mygtc install {{ item }}
       with_items: "{{ mygtc_items }}"
+
+    - name: update softwares
+      shell: $(go env GOPATH)/bin/mygtc update
