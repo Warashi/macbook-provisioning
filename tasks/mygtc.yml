@@ -20,3 +20,5 @@
 
     - name: update softwares
       shell: $(go env GOPATH)/bin/mygtc update
+      register: result
+      failed_when: result.rc not in [0, 1]
