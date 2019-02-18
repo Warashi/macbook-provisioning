@@ -8,3 +8,7 @@ homebrew_packages:
   - { name: direnv }
   - { name: fzf }
   - { name: hub }
+  - { name: fd }
+  - { name: ripgrep }
+  - { name: fish }
+  - { name: gopass }
