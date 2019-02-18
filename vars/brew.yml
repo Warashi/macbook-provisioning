@@ -1,14 +1,23 @@
 homebrew_packages:
-  - { name: go }
-  - { name: gibo }
-  - { name: terminal-notifier }
-  - { name: tmux }
-  - { name: reattach-to-user-namespace }
-  - { name: tig }
   - { name: direnv }
-  - { name: fzf }
-  - { name: hub }
+  - { name: docker-completion }
+  - { name: docker-compose-completion }
+  - { name: docker-machine-completion }
+  - { name: exa }
   - { name: fd }
-  - { name: ripgrep }
   - { name: fish }
+  - { name: fzf }
+  - { name: gibo }
+  - { name: git }
+  - { name: go }
   - { name: gopass }
+  - { name: htop }
+  - { name: hub }
+  - { name: jq }
+  - { name: mas }
+  - { name: reattach-to-user-namespace }
+  - { name: ripgrep }
+  - { name: terminal-notifier }
+  - { name: tig }
+  - { name: tmux }
+  - { name: tmux-xpanes }

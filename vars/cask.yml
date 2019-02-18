@@ -1,11 +1,15 @@
 homebrew_cask_packages:
   - { name: alfred }
-  - { name: hyperswitch }
-  - { name: slack }
-  - { name: google-chrome }
+  - { name: atok }
   - { name: bartender }
   - { name: caffeine }
+  - { name: docker }
   - { name: font-fira-code }
+  - { name: vivaldi }
+  - { name: hyperswitch }
   - { name: iterm2 }
-  - { name: dashlane }
+  - { name: jetbrains-toolbox }
+  - { name: karabiner-elements }
+  - { name: slack }
+  - { name: typora }
   - { name: visual-studio-code }
