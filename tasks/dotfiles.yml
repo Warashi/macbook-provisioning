@@ -1,0 +1,35 @@
+- hosts: localhost
+  connection: local
+  gather_facts: no
+  vars_files:
+    - "../vars/dotfiles.yml"
+  vars:
+    HOME: "{{ lookup('env', 'HOME') }}"
+    repository_dir: "{{ '%s/.ghq/%s' | format(HOME, repository) }}"
+  tasks:
+    - name: "mkdir -p {{ repository_dir | dirname }}"
+      file:
+        path: "{{ repository_dir | dirname }}"
+        state: directory
+        recurse: yes
+
+    - name: dotfiles repository を clone
+      git:
+        repo: "https://{{ repository }}.git"
+        dest: "{{ repository_dir }}"
+
+    - name: dotfiles を置くディレクトリを作成
+      file:
+        path: "{{ item }}"
+        state: directory
+        recurse: yes
+      with_items: "{{ [] | zip_longest(link_targets, fillvalue=HOME) | map('join', '/') | map('dirname') | unique | sort | reject('equalto', HOME) | list }}"
+
+    - name: dotfiles の symlink を 作成
+      file:
+        src: "{{ repository_dir }}/{{ item }}"
+        dest: "{{ HOME }}/{{ item }}"
+        state: link
+        force: yes
+      with_items: "{{ link_targets }}"
+

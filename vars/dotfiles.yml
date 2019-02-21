@@ -1,0 +1,8 @@
+repository: "github.com/Warashi/dotfiles"
+link_targets:
+  - ".config/fish/config.fish"
+  - ".config/fish/fishfile"
+  - ".config/karabiner/assets/complex_modifications/my_complex_modifications.json"
+  - ".gitconfig"
+  - ".tigrc"
+  - ".tmux.conf"

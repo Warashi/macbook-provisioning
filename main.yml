@@ -7,3 +7,4 @@
 - import_playbook: tasks/cask.yml
 - import_playbook: tasks/mas.yml
 - import_playbook: tasks/mygtc.yml
+- import_playbook: tasks/dotfiles.yml
