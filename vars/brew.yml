@@ -16,6 +16,7 @@ homebrew_packages:
   - { name: jq }
   - { name: mas }
   - { name: most }
+  - { name: neovim }
   - { name: rclone }
   - { name: reattach-to-user-namespace }
   - { name: ripgrep }
