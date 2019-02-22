@@ -18,18 +18,6 @@
         repo: "https://{{ repository }}.git"
         dest: "{{ repository_dir }}"
 
-    - name: dotfiles を置くディレクトリを作成
-      file:
-        path: "{{ item }}"
-        state: directory
-        recurse: yes
-      with_items: "{{ [] | zip_longest(link_targets, fillvalue=HOME) | map('join', '/') | map('dirname') | unique | sort | reject('equalto', HOME) | list }}"
-
     - name: dotfiles の symlink を 作成
-      file:
-        src: "{{ repository_dir }}/{{ item }}"
-        dest: "{{ HOME }}/{{ item }}"
-        state: link
-        force: yes
-      with_items: "{{ link_targets }}"
+      command: "rlink -i '.git/' {{ repository_dir }} {{ HOME }}"
 

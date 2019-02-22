@@ -14,6 +14,10 @@ func main() {
 			Desc: "My own go tools catalog",
 		},
 		{
+			Path: "github.com/Warashi/rlink",
+			Desc: "rlink - search files recursively and make symlinks",
+		},
+		{
 			Path: "github.com/motemen/ghq",
 			Desc: "ghq - Manage repote repository clones",
 		},
