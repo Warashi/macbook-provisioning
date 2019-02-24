@@ -18,6 +18,10 @@ func main() {
 			Desc: "rlink - search files recursively and make symlinks",
 		},
 		{
+			Path: "github.com/google/skicka",
+			Desc: "skicka - command line tools for google drive",
+		},
+		{
 			Path: "github.com/motemen/ghq",
 			Desc: "ghq - Manage repote repository clones",
 		},
