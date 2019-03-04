@@ -4,8 +4,7 @@ homebrew_cask_packages:
   - { name: bartender }
   - { name: caffeine }
   - { name: docker }
-  - { name: font-fira-code }
-  - { name: vivaldi }
+  - { name: font-source-han-code-jp }
   - { name: hyperswitch }
   - { name: iterm2 }
   - { name: jetbrains-toolbox }
@@ -13,3 +12,4 @@ homebrew_cask_packages:
   - { name: slack }
   - { name: typora }
   - { name: visual-studio-code }
+  - { name: vivaldi }
