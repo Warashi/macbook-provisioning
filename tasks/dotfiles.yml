@@ -19,5 +19,5 @@
         dest: "{{ repository_dir }}"
 
     - name: dotfiles の symlink を 作成
-      command: "rlink -i '.git/' {{ repository_dir }} {{ HOME }}"
+      command: "$(go env GOPATH)/bin/rlink -i '.git/' {{ repository_dir }} {{ HOME }}"
 
