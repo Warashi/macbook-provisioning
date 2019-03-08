@@ -15,8 +15,8 @@ homebrew_packages:
   - { name: htop }
   - { name: hub }
   - { name: jq }
+  - { name: less }
   - { name: mas }
-  - { name: most }
   - { name: neovim }
   - { name: pinentry-mac }
   - { name: reattach-to-user-namespace }
