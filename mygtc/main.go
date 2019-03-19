@@ -25,6 +25,10 @@ func main() {
 			Path: "github.com/motemen/ghq",
 			Desc: "ghq - Manage repote repository clones",
 		},
+		{
+			Path: "github.com/saibing/bingo",
+			Desc: "bingo - go language server",
+		},
 	}...).Run(os.Args)
 	if err != nil {
 		fmt.Println(err.Error())
