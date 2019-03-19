@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	err := gtcore.NewCatalog([]gtcore.Tool{
+	err := gtcore.DefaultCatalog.Merge([]gtcore.Tool{
 		{
 			Path: "github.com/Warashi/macbook-provisioning/mygtc",
 			Desc: "My own go tools catalog",
