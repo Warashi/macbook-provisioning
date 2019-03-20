@@ -1,9 +1,11 @@
 homebrew_packages:
   - { name: asdf }
+  - { name: chunkwm }
   - { name: direnv }
   - { name: docker-completion }
   - { name: docker-compose-completion }
   - { name: docker-machine-completion }
+  - { name: emacs }
   - { name: exa }
   - { name: fd }
   - { name: fish }
@@ -20,8 +22,14 @@ homebrew_packages:
   - { name: pinentry-mac }
   - { name: reattach-to-user-namespace }
   - { name: ripgrep }
+  - { name: skhd }
   - { name: terminal-notifier }
   - { name: tig }
   - { name: tmux }
   - { name: tmux-xpanes }
   - { name: zstd }
+
+homebrew_services:
+  - emacs
+  - chunkwm
+  - skhd

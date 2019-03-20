@@ -14,3 +14,7 @@
           else item.install_options
         }}
       with_items: "{{ homebrew_packages }}"
+
+    - name: start brew services
+      command: "brew services start {{ item }}"
+      with_items: "{{ homebrew_services }}"
