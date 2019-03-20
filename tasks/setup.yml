@@ -16,3 +16,11 @@
       shell: brew autoupdate --start --upgrade --cleanup --enable-notification
       register: result
       failed_when: false
+
+    - name: terminfo-24bit.src の準備
+      copy:
+        src: terminfo-24bit.src
+        dest: /tmp/terminfo-24bit.src
+
+    - name: terminfo のコンパイル
+      shell: tic -x -o /usr/share/terminfo /tmp/terminfo-24bit.src
