@@ -5,7 +5,6 @@ homebrew_packages:
   - { name: docker-completion }
   - { name: docker-compose-completion }
   - { name: docker-machine-completion }
-  - { name: emacs }
   - { name: exa }
   - { name: fd }
   - { name: fish }
@@ -30,6 +29,5 @@ homebrew_packages:
   - { name: zstd }
 
 homebrew_services:
-  - emacs
   - chunkwm
   - skhd
