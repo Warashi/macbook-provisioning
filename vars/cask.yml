@@ -15,4 +15,3 @@ homebrew_cask_packages:
   - { name: typora }
   - { name: visual-studio-code }
   - { name: vivaldi }
-  - { name: yt-music }
