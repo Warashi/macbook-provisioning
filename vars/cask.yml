@@ -1,10 +1,10 @@
 homebrew_cask_packages:
   - { name: alfred }
+  - { name: amethyst }
   - { name: atok }
   - { name: bartender }
   - { name: caffeine }
   - { name: docker }
-  - { name: emacs-mac }
   - { name: font-source-han-code-jp }
   - { name: hyperswitch }
   - { name: iterm2 }
