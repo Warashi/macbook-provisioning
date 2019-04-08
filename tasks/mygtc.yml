@@ -19,6 +19,6 @@
       with_items: "{{ mygtc_items }}"
 
     - name: update softwares
-      shell: $(go env GOPATH)/bin/mygtc update
+      shell: $(go env GOPATH)/bin/mygtc update -all
       register: result
       failed_when: result.rc not in [0, 1]
