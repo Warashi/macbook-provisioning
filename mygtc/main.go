@@ -26,8 +26,8 @@ func main() {
 			Desc: "ghq - Manage repote repository clones",
 		},
 		{
-			Path: "github.com/saibing/bingo",
-			Desc: "bingo - go language server",
+			Path: "github.com/golangci/golangci-lint/cmd/golangci-lint",
+			Desc: "golangci-lint - lint tool",
 		},
 	}...).Run(os.Args)
 	if err != nil {
