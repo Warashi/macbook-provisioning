@@ -14,6 +14,10 @@ func main() {
 			Desc: "My own go tools catalog",
 		},
 		{
+			Path: "github.com/Warashi/locdog",
+			Desc: "local watchdog",
+		},
+		{
 			Path: "github.com/Warashi/rlink",
 			Desc: "rlink - search files recursively and make symlinks",
 		},
