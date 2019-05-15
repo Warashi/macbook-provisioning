@@ -5,6 +5,7 @@ homebrew_cask_packages:
   - { name: bartender }
   - { name: caffeine }
   - { name: docker }
+  - { name: emacs-mac }
   - { name: font-source-han-code-jp }
   - { name: hyperswitch }
   - { name: iterm2 }

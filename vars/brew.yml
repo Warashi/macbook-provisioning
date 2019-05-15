@@ -4,7 +4,6 @@ homebrew_packages:
   - { name: docker-completion }
   - { name: docker-compose-completion }
   - { name: docker-machine-completion }
-  - { name: emacs-imepatched }
   - { name: exa }
   - { name: fd }
   - { name: fish }
