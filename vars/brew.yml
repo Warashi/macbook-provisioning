@@ -1,5 +1,6 @@
 homebrew_packages:
   - { name: asdf }
+  - { name: bat }
   - { name: direnv }
   - { name: docker-completion }
   - { name: docker-compose-completion }
