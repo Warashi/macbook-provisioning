@@ -4,7 +4,6 @@ homebrew_packages:
   - { name: direnv }
   - { name: docker-completion }
   - { name: docker-compose-completion }
-  - { name: docker-machine-completion }
   - { name: exa }
   - { name: fd }
   - { name: fish }
@@ -16,8 +15,8 @@ homebrew_packages:
   - { name: htop }
   - { name: hub }
   - { name: jq }
+  - { name: kubernetes-cli }
   - { name: mas }
-  - { name: neovim }
   - { name: pinentry-mac }
   - { name: reattach-to-user-namespace }
   - { name: ripgrep }
@@ -26,6 +25,7 @@ homebrew_packages:
   - { name: tig }
   - { name: tmux }
   - { name: tmux-xpanes }
+  - { name: watch }
   - { name: zstd }
 
 homebrew_services: []
