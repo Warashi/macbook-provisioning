@@ -1,5 +1,4 @@
 homebrew_taps:
   - "homebrew/cask-fonts"
-  - "domt4/autoupdate"
   - "railwaycat/emacsmacport"
   - "Warashi/formulae"
