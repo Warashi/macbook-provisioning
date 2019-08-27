@@ -10,8 +10,3 @@ homebrew_cask_packages:
   - { name: iterm2 }
   - { name: jetbrains-toolbox }
   - { name: karabiner-elements }
-  - { name: marshallofsound-google-play-music-player }
-  - { name: slack }
-  - { name: typora }
-  - { name: visual-studio-code }
-  - { name: yt-music }
