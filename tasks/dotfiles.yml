@@ -5,7 +5,7 @@
     - "../vars/dotfiles.yml"
   vars:
     HOME: "{{ lookup('env', 'HOME') }}"
-    repository_dir: "{{ '%s/.ghq/%s' | format(HOME, repository) }}"
+    repository_dir: "{{ '%s/ghq/%s' | format(HOME, repository) }}"
   tasks:
     - name: "mkdir -p {{ repository_dir | dirname }}"
       file:
@@ -19,5 +19,5 @@
         dest: "{{ repository_dir }}"
 
     - name: dotfiles の symlink を 作成
-      shell: "$(go env GOPATH)/bin/rlink -i '\.git/' {{ repository_dir }} {{ HOME }}"
+      shell: "$(go env GOPATH)/bin/rlink -i '\.git' {{ repository_dir }} {{ HOME }}"
 
