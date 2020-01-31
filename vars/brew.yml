@@ -1,6 +1,4 @@
 homebrew_packages:
-  - { name: asdf }
-  - { name: bat }
   - { name: direnv }
   - { name: docker-completion }
   - { name: docker-compose-completion }
@@ -8,19 +6,17 @@ homebrew_packages:
   - { name: fd }
   - { name: fish }
   - { name: gibo }
+  - { name: ghq }
+  - { name: go }
   - { name: git }
-  - { name: gopass }
   - { name: hub }
   - { name: jq }
   - { name: mas }
-  - { name: pinentry-mac }
   - { name: reattach-to-user-namespace }
   - { name: ripgrep }
   - { name: sk }
   - { name: starship }
   - { name: terminal-notifier }
-  - { name: texinfo }
-  - { name: tig }
   - { name: tmux }
   - { name: tmux-xpanes }
   - { name: watch }
