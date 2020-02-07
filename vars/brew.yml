@@ -15,7 +15,6 @@ homebrew_packages:
   - { name: reattach-to-user-namespace }
   - { name: ripgrep }
   - { name: sk }
-  - { name: starship }
   - { name: terminal-notifier }
   - { name: tmux }
   - { name: tmux-xpanes }
