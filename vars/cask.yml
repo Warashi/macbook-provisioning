@@ -6,7 +6,6 @@ homebrew_cask_packages:
   - { name: caffeine }
   - { name: discord }
   - { name: docker }
-  - { name: emacs-inlinepatched }
   - { name: font-cascadia }
   - { name: font-source-han-code-jp }
   - { name: google-chrome }
@@ -15,3 +14,5 @@ homebrew_cask_packages:
   - { name: jetbrains-toolbox }
   - { name: karabiner-elements }
   - { name: microsoft-edge }
+  - { name: sublime-merge }
+  - { name: sublime-text }
