@@ -1,5 +1,0 @@
-github.com/koron/go-subcmd v0.0.0-20190311064910-9887fc382ee2/go.mod h1:aooLdRRlM3RG7edvC6h0NbQPB0xOJrJ5fjg3ChkKZUw=
-github.com/koron/go-subcmd v1.0.0 h1:AVCdeWSfY9LaiuVHAumEKV3OYIIKG7pHw/+vvxhlJdk=
-github.com/koron/go-subcmd v1.0.0/go.mod h1:D+hefRR744UrPtYBpn9xhuXNdJK4NliVntPEPTZajjA=
-github.com/koron/gtc v0.0.0-20190503033120-3d2b81de6513 h1:yXpOxUJa5fE9YZmspoO26mfp/3qpelaWuopYRxmiHVE=
-github.com/koron/gtc v0.0.0-20190503033120-3d2b81de6513/go.mod h1:5DFUVSYZJM5p7bs32sNZRsfexydjnNnFQNSMj6tugLE=
