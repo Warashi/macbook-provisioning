@@ -41,7 +41,8 @@ if ! command -v brew >/dev/null 2>&1; then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
   echo
 fi
-brew bundle
+
+brew bundle --file="$THIS_REPO_PATH/Brewfile"
 echo
 
 mackup restore
