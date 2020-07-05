@@ -1,6 +1,8 @@
 #!/usr/bin/env zsh
 set -euo pipefail
 
+xcode-select --install || true
+
 THIS_REPO_PATH=$HOME/ghq/github.com/Warashi/macbook-provisioning
 if [[ ! -d "$(dirname "$THIS_REPO_PATH")" ]]; then
 	mkdir -p "$(dirname "$THIS_REPO_PATH")"
