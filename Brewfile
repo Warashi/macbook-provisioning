@@ -11,6 +11,7 @@ brew "docker-completion"
 brew "docker-compose-completion"
 brew "exa"
 brew "fd"
+brew "fish"
 brew "gh"
 brew "ghq"
 brew "gibo"
@@ -68,6 +69,7 @@ mas "Parcel", id: 639968404
 mas "Pastebot", id: 1179623856
 mas "PopClip", id: 445189367
 mas "Quiver", id: 866773894
+mas "Save to Pocket", id: 1477385213
 mas "Things", id: 904280696
 mas "Tweetbot", id: 1384080005
 mas "Twitter", id: 1482454543
