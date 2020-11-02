@@ -67,8 +67,8 @@ mas "Magnet", id: 441258766
 mas "MindNode", id: 1289197285
 mas "Parcel", id: 639968404
 mas "Pastebot", id: 1179623856
-mas "PopClip", id: 445189367
 mas "Quiver", id: 866773894
+mas "Reeder", id: 1529448980
 mas "Save to Pocket", id: 1477385213
 mas "Things", id: 904280696
 mas "Tweetbot", id: 1384080005
