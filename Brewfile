@@ -29,8 +29,6 @@ brew "gibo"
 brew "git"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
-# Add GitHub support to git on the command-line
-brew "hub"
 # Configurable static site generator
 brew "hugo"
 # Lightweight and flexible command-line JSON processor
@@ -59,10 +57,11 @@ brew "watch"
 brew "zsh"
 # Zstandard is a real-time compression algorithm
 brew "zstd"
+brew "itchyny/tap/mmv"
 cask "1password"
 cask "alfred"
 cask "appcleaner"
-cask "aquaskk"
+cask "atok"
 cask "bose-updater"
 cask "caffeine"
 cask "dash"
