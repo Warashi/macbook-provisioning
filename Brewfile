@@ -7,6 +7,8 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "itchyny/tap"
 tap "warashi/formulae", "https://github.com/Warashi/homebrew-formulae.git"
+# User-friendly launcher for Bazel
+brew "bazelisk"
 # Load/unload environment variables based on $PWD
 brew "direnv"
 # Bash, Zsh and Fish completion for Docker
@@ -49,8 +51,6 @@ brew "terminal-notifier"
 brew "tmux"
 # Ultimate terminal divider powered by tmux
 brew "tmux-xpanes"
-# Vi 'workalike' with many additional features
-brew "vim"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
 # UNIX shell (command interpreter)
@@ -68,7 +68,7 @@ cask "dash"
 cask "discord"
 cask "docker"
 cask "dropbox"
-cask "font-cascadia"
+cask "font-jetbrains-mono-nerd-font"
 cask "font-source-han-code-jp"
 cask "google-chrome"
 cask "gpg-suite-no-mail"
@@ -76,12 +76,15 @@ cask "hyperswitch"
 cask "iterm2"
 cask "jetbrains-toolbox"
 cask "karabiner-elements"
+cask "microsoft-auto-update"
 cask "microsoft-edge"
+cask "notion"
 cask "slack"
 cask "sublime-merge"
 cask "sublime-text"
 cask "typora"
 cask "visual-studio-code"
+cask "zoom"
 cask "zsa-wally"
 mas "Calcbot", id: 931657367
 mas "DaisyDisk", id: 411643860
@@ -93,6 +96,7 @@ mas "Magnet", id: 441258766
 mas "MindNode", id: 1289197285
 mas "Parcel", id: 639968404
 mas "Pastebot", id: 1179623856
+mas "PiPifier", id: 1160374471
 mas "Reeder", id: 1529448980
 mas "Save to Pocket", id: 1477385213
 mas "Things", id: 904280696
