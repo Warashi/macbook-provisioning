@@ -19,8 +19,6 @@ brew "docker-compose-completion"
 brew "exa"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
-# User-friendly command-line shell for UNIX-like operating systems
-brew "fish"
 # GitHub command-line tool
 brew "gh"
 # Remote repository management made easy
@@ -45,6 +43,8 @@ brew "reattach-to-user-namespace"
 brew "ripgrep"
 # Fuzzy Finder in rust!
 brew "sk"
+# Cross-shell prompt for astronauts
+brew "starship"
 # Send macOS User Notifications from the command-line
 brew "terminal-notifier"
 # Terminal multiplexer
@@ -58,39 +58,64 @@ brew "zsh"
 # Zstandard is a real-time compression algorithm
 brew "zstd"
 brew "itchyny/tap/mmv"
+# Password manager that keeps all passwords secure behind one password
 cask "1password"
+# Application launcher and productivity software
 cask "alfred"
+# Application uninstaller
 cask "appcleaner"
 cask "atok"
+# Software updates for Bose products
 cask "bose-updater"
+# Utility that prevents the system from going to sleep
 cask "caffeine"
+# API documentation browser and code snippet manager
 cask "dash"
+# Voice and text chat software
 cask "discord"
+# App to build and share containerized applications and microservices
 cask "docker"
+# Client for the Dropbox cloud storage service
 cask "dropbox"
 cask "font-jetbrains-mono-nerd-font"
 cask "font-source-han-code-jp"
+# Web browser
 cask "google-chrome"
+# Tools to protect your files
 cask "gpg-suite-no-mail"
 cask "hyperswitch"
+# Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# JetBrains tools manager
 cask "jetbrains-toolbox"
+# Keyboard customizer
 cask "karabiner-elements"
+# Interface for reading and syncing eBooks
 cask "kindle"
+# Provides updates to various Microsoft products
 cask "microsoft-auto-update"
+# Multi-platform web browser
 cask "microsoft-edge"
+# App to write, plan, collaborate, and get organized
 cask "notion"
+# Team communication and collaboration software
 cask "slack"
+# Git client
 cask "sublime-merge"
+# Text editor for code, markup and prose
 cask "sublime-text"
+# Configurable document editor that supports Markdown
 cask "typora"
+# Open-source code editor
 cask "visual-studio-code"
+# Video communication and virtual meeting platform
 cask "zoom"
 cask "zsa-wally"
 mas "Calcbot", id: 931657367
 mas "DaisyDisk", id: 411643860
 mas "Day One", id: 1055511498
 mas "Fantastical", id: 975937182
+mas "HomeControl", id: 1547121417
 mas "iStat Menus", id: 1319778037
 mas "LINE", id: 539883307
 mas "Magnet", id: 441258766
@@ -98,6 +123,7 @@ mas "MindNode", id: 1289197285
 mas "Parcel", id: 639968404
 mas "Pastebot", id: 1179623856
 mas "PiPifier", id: 1160374471
+mas "Pocket", id: 568494494
 mas "Reeder", id: 1529448980
 mas "Save to Pocket", id: 1477385213
 mas "Things", id: 904280696
