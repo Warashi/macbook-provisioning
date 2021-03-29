@@ -47,6 +47,8 @@ brew "sk"
 brew "starship"
 # Send macOS User Notifications from the command-line
 brew "terminal-notifier"
+# Text interface for Git repositories
+brew "tig"
 # Terminal multiplexer
 brew "tmux"
 # Ultimate terminal divider powered by tmux
@@ -98,6 +100,7 @@ cask "microsoft-auto-update"
 cask "microsoft-edge"
 # App to write, plan, collaborate, and get organized
 cask "notion"
+cask "realforce"
 # Team communication and collaboration software
 cask "slack"
 # Git client
