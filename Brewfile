@@ -6,6 +6,7 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "itchyny/tap"
+tap "mrtc0/openv"
 tap "warashi/formulae", "https://github.com/Warashi/homebrew-formulae.git"
 # User-friendly launcher for Bazel
 brew "bazelisk"
@@ -37,14 +38,14 @@ brew "jq"
 brew "mackup"
 # Mac App Store command-line interface
 brew "mas"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
 # Reattach process (e.g., tmux) to background
 brew "reattach-to-user-namespace"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Fuzzy Finder in rust!
 brew "sk"
-# Cross-shell prompt for astronauts
-brew "starship"
 # Send macOS User Notifications from the command-line
 brew "terminal-notifier"
 # Text interface for Git repositories
@@ -60,6 +61,8 @@ brew "zsh"
 # Zstandard is a real-time compression algorithm
 brew "zstd"
 brew "itchyny/tap/mmv"
+# A tool that uses the credentials stored in 1password as an environment variable.
+brew "mrtc0/openv/openv"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Application launcher and productivity software
