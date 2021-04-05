@@ -117,6 +117,7 @@ cask "visual-studio-code"
 # Video communication and virtual meeting platform
 cask "zoom"
 cask "zsa-wally"
+mas "Bitwarden", id: 1352778147
 mas "Calcbot", id: 931657367
 mas "DaisyDisk", id: 411643860
 mas "Day One", id: 1055511498
