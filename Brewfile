@@ -20,6 +20,8 @@ brew "docker-compose-completion"
 brew "exa"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
+# User-friendly command-line shell for UNIX-like operating systems
+brew "fish"
 # GitHub command-line tool
 brew "gh"
 # Remote repository management made easy
@@ -65,6 +67,8 @@ brew "itchyny/tap/mmv"
 brew "mrtc0/openv/openv"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
+# GPU-accelerated terminal emulator
+cask "alacritty"
 # Application launcher and productivity software
 cask "alfred"
 # Application uninstaller
@@ -83,7 +87,6 @@ cask "docker"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 cask "font-jetbrains-mono-nerd-font"
-cask "font-source-han-code-jp"
 # Web browser
 cask "google-chrome"
 # Tools to protect your files
@@ -100,7 +103,7 @@ cask "kindle"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
 # Multi-platform web browser
-cask "microsoft-edge"
+cask "microsoft-edge-beta"
 # App to write, plan, collaborate, and get organized
 cask "notion"
 cask "realforce"
@@ -116,11 +119,13 @@ cask "typora"
 cask "visual-studio-code"
 # Video communication and virtual meeting platform
 cask "zoom"
+# Flash tool for ZSA keyboards
 cask "zsa-wally"
 mas "Bitwarden", id: 1352778147
 mas "Calcbot", id: 931657367
 mas "DaisyDisk", id: 411643860
 mas "Day One", id: 1055511498
+mas "Dictionaries", id: 1380563956
 mas "Fantastical", id: 975937182
 mas "HomeControl", id: 1547121417
 mas "iStat Menus", id: 1319778037
@@ -133,7 +138,9 @@ mas "PiPifier", id: 1160374471
 mas "Pocket", id: 568494494
 mas "Reeder", id: 1529448980
 mas "Save to Pocket", id: 1477385213
+mas "Tampermonkey", id: 1482490089
 mas "Things", id: 904280696
 mas "Tweetbot", id: 1384080005
+mas "TweetShot", id: 1227057295
 mas "Twitter", id: 1482454543
 mas "Whalebird", id: 1378283354
