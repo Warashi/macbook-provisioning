@@ -1,4 +1,3 @@
-tap "git-time-metric/gtm"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
@@ -63,8 +62,6 @@ brew "watch"
 brew "zsh"
 # Zstandard is a real-time compression algorithm
 brew "zstd"
-# Simple, seamless, lightweight time tracking for all your git projects
-brew "git-time-metric/gtm/gtm"
 brew "itchyny/tap/mmv"
 # A tool that uses the credentials stored in 1password as an environment variable.
 brew "mrtc0/openv/openv"
