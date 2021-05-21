@@ -1,3 +1,4 @@
+tap "git-time-metric/gtm"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
@@ -62,6 +63,8 @@ brew "watch"
 brew "zsh"
 # Zstandard is a real-time compression algorithm
 brew "zstd"
+# Simple, seamless, lightweight time tracking for all your git projects
+brew "git-time-metric/gtm/gtm"
 brew "itchyny/tap/mmv"
 # A tool that uses the credentials stored in 1password as an environment variable.
 brew "mrtc0/openv/openv"
@@ -91,6 +94,8 @@ cask "font-jetbrains-mono-nerd-font"
 cask "google-chrome"
 # Tools to protect your files
 cask "gpg-suite-no-mail"
+# Utility to fix grammar errors and style issues in text
+cask "grammarly"
 cask "hyperswitch"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
@@ -106,6 +111,8 @@ cask "microsoft-auto-update"
 cask "microsoft-edge-beta"
 # App to write, plan, collaborate, and get organized
 cask "notion"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
 cask "realforce"
 # Team communication and collaboration software
 cask "slack"
@@ -113,6 +120,7 @@ cask "slack"
 cask "sublime-merge"
 # Text editor for code, markup and prose
 cask "sublime-text"
+cask "timemator"
 # Configurable document editor that supports Markdown
 cask "typora"
 # Open-source code editor
@@ -127,11 +135,13 @@ mas "DaisyDisk", id: 411643860
 mas "Day One", id: 1055511498
 mas "Dictionaries", id: 1380563956
 mas "Fantastical", id: 975937182
+mas "Ghostery Lite", id: 1436953057
 mas "HomeControl", id: 1547121417
 mas "iStat Menus", id: 1319778037
 mas "LINE", id: 539883307
 mas "Magnet", id: 441258766
 mas "MindNode", id: 1289197285
+mas "OpenIn", id: 1547147101
 mas "Parcel", id: 639968404
 mas "Pastebot", id: 1179623856
 mas "PiPifier", id: 1160374471
@@ -143,4 +153,5 @@ mas "Things", id: 904280696
 mas "Tweetbot", id: 1384080005
 mas "TweetShot", id: 1227057295
 mas "Twitter", id: 1482454543
+mas "Vimari", id: 1480933944
 mas "Whalebird", id: 1378283354
