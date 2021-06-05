@@ -67,8 +67,6 @@ brew "itchyny/tap/mmv"
 brew "mrtc0/openv/openv"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
-# GPU-accelerated terminal emulator
-cask "alacritty"
 # Application launcher and productivity software
 cask "alfred"
 # Application uninstaller
@@ -105,7 +103,7 @@ cask "kindle"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
 # Multi-platform web browser
-cask "microsoft-edge-beta"
+cask "microsoft-edge"
 # App to write, plan, collaborate, and get organized
 cask "notion"
 # Knowledge base that works on top of a local folder of plain text Markdown files
@@ -117,7 +115,8 @@ cask "slack"
 cask "sublime-merge"
 # Text editor for code, markup and prose
 cask "sublime-text"
-cask "timemator"
+# Time tracker
+cask "toggl-track"
 # Configurable document editor that supports Markdown
 cask "typora"
 # Open-source code editor
