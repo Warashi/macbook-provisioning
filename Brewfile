@@ -30,6 +30,8 @@ brew "ghq"
 brew "gibo"
 # Distributed revision control system
 brew "git"
+# Syntax-highlighting pager for git and diff output
+brew "git-delta"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Configurable static site generator
@@ -71,6 +73,7 @@ cask "1password"
 cask "alfred"
 # Application uninstaller
 cask "appcleaner"
+# Japanese input method editor (IME) produced by JustSystems
 cask "atok"
 # Software updates for Bose products
 cask "bose-updater"
@@ -102,7 +105,7 @@ cask "karabiner-elements"
 cask "kindle"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
-# Multi-platform web browser
+# Web browser
 cask "microsoft-edge"
 # App to write, plan, collaborate, and get organized
 cask "notion"
@@ -129,7 +132,6 @@ mas "Bitwarden", id: 1352778147
 mas "Calcbot", id: 931657367
 mas "DaisyDisk", id: 411643860
 mas "Day One", id: 1055511498
-mas "Dictionaries", id: 1380563956
 mas "Fantastical", id: 975937182
 mas "Ghostery Lite", id: 1436953057
 mas "HomeControl", id: 1547121417
@@ -151,3 +153,4 @@ mas "TweetShot", id: 1227057295
 mas "Twitter", id: 1482454543
 mas "Vimari", id: 1480933944
 mas "Whalebird", id: 1378283354
+mas "辞書 by 物書堂", id: 1380563956
