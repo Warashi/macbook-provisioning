@@ -131,15 +131,14 @@ cask "zsa-wally"
 mas "Bitwarden", id: 1352778147
 mas "Calcbot", id: 931657367
 mas "DaisyDisk", id: 411643860
-mas "Day One", id: 1055511498
 mas "Fantastical", id: 975937182
+mas "Flow", id: 1423210932
 mas "Ghostery Lite", id: 1436953057
 mas "HomeControl", id: 1547121417
 mas "iStat Menus", id: 1319778037
 mas "LINE", id: 539883307
 mas "Magnet", id: 441258766
 mas "MindNode", id: 1289197285
-mas "OpenIn", id: 1547147101
 mas "Parcel", id: 639968404
 mas "Pastebot", id: 1179623856
 mas "PiPifier", id: 1160374471
