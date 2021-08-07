@@ -8,14 +8,10 @@ tap "homebrew/services"
 tap "itchyny/tap"
 tap "mrtc0/openv"
 tap "warashi/formulae", "https://github.com/Warashi/homebrew-formulae.git"
-# User-friendly launcher for Bazel
-brew "bazelisk"
 # Load/unload environment variables based on $PWD
 brew "direnv"
 # Bash, Zsh and Fish completion for Docker
 brew "docker-completion"
-# Completion script for docker-compose
-brew "docker-compose-completion"
 # Modern replacement for 'ls'
 brew "exa"
 # Simple, fast and user-friendly alternative to find
@@ -60,8 +56,6 @@ brew "tmux"
 brew "tmux-xpanes"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
-# UNIX shell (command interpreter)
-brew "zsh"
 # Zstandard is a real-time compression algorithm
 brew "zstd"
 brew "itchyny/tap/mmv"
@@ -75,8 +69,6 @@ cask "alfred"
 cask "appcleaner"
 # Japanese input method editor (IME) produced by JustSystems
 cask "atok"
-# Software updates for Bose products
-cask "bose-updater"
 # Utility that prevents the system from going to sleep
 cask "caffeine"
 # API documentation browser and code snippet manager
@@ -87,14 +79,10 @@ cask "discord"
 cask "docker"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
-cask "font-jetbrains-mono-nerd-font"
-# Web browser
-cask "google-chrome"
 # Tools to protect your files
 cask "gpg-suite-no-mail"
 # Utility to fix grammar errors and style issues in text
 cask "grammarly"
-cask "hyperswitch"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # JetBrains tools manager
@@ -109,17 +97,8 @@ cask "microsoft-auto-update"
 cask "microsoft-edge"
 # App to write, plan, collaborate, and get organized
 cask "notion"
-# Knowledge base that works on top of a local folder of plain text Markdown files
-cask "obsidian"
-cask "realforce"
 # Team communication and collaboration software
 cask "slack"
-# Git client
-cask "sublime-merge"
-# Text editor for code, markup and prose
-cask "sublime-text"
-# Time tracker
-cask "toggl-track"
 # Configurable document editor that supports Markdown
 cask "typora"
 # Open-source code editor
@@ -133,7 +112,6 @@ mas "Calcbot", id: 931657367
 mas "DaisyDisk", id: 411643860
 mas "Fantastical", id: 975937182
 mas "Flow", id: 1423210932
-mas "Ghostery Lite", id: 1436953057
 mas "HomeControl", id: 1547121417
 mas "iStat Menus", id: 1319778037
 mas "LINE", id: 539883307
@@ -141,15 +119,10 @@ mas "Magnet", id: 441258766
 mas "MindNode", id: 1289197285
 mas "Parcel", id: 639968404
 mas "Pastebot", id: 1179623856
-mas "PiPifier", id: 1160374471
 mas "Pocket", id: 568494494
 mas "Reeder", id: 1529448980
-mas "Save to Pocket", id: 1477385213
-mas "Tampermonkey", id: 1482490089
 mas "Things", id: 904280696
 mas "Tweetbot", id: 1384080005
 mas "TweetShot", id: 1227057295
 mas "Twitter", id: 1482454543
-mas "Vimari", id: 1480933944
-mas "Whalebird", id: 1378283354
 mas "辞書 by 物書堂", id: 1380563956
